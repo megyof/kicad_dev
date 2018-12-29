@@ -1462,28 +1462,6 @@ Text GLabel 6250 4050 2    50   Input ~ 0
 VREF
 Wire Wire Line
 	6250 4050 6150 4050
-$Comp
-L lab_ps_with_atx_psu-rescue:+5V-power #PWR?
-U 1 1 5C3B3F26
-P 5400 3600
-F 0 "#PWR?" H 5400 3450 50  0001 C CNN
-F 1 "+5V" H 5415 3773 50  0000 C CNN
-F 2 "" H 5400 3600 50  0001 C CNN
-F 3 "" H 5400 3600 50  0001 C CNN
-	1    5400 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
-U 1 1 5C3B3FA1
-P 5400 4700
-F 0 "#PWR?" H 5400 4450 50  0001 C CNN
-F 1 "Earth" H 5400 4550 50  0001 C CNN
-F 2 "" H 5400 4700 50  0001 C CNN
-F 3 "~" H 5400 4700 50  0001 C CNN
-	1    5400 4700
-	1    0    0    -1  
-$EndComp
 Text Notes 5950 4400 0    50   ~ 0
 0-2.048V OUT
 Wire Wire Line
@@ -1556,9 +1534,12 @@ L Device:D_Schottky D5
 U 1 1 5C3DD916
 P 8550 550
 F 0 "D5" H 8400 500 50  0000 C CNN
-F 1 "SK33A" H 8850 500 50  0000 C CNN
-F 2 "" H 8550 550 50  0001 C CNN
-F 3 "~" H 8550 550 50  0001 C CNN
+F 1 "SK315SMA" H 8850 500 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8550 550 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=9495" H 8550 550 50  0001 C CNN
+F 4 "hestore" H 8550 550 50  0001 C CNN "Supplier"
+F 5 "1003.7765" H 8550 550 50  0001 C CNN "PN"
+F 6 "33" H 8550 550 50  0001 C CNN "Price"
 	1    8550 550 
 	1    0    0    -1  
 $EndComp
@@ -1569,4 +1550,497 @@ Wire Wire Line
 Connection ~ 7900 950 
 Wire Wire Line
 	7900 950  7150 950 
+$Comp
+L Amplifier_Operational:LM358 U7
+U 2 1 5C286D7D
+P 7650 5450
+F 0 "U7" H 7700 5200 50  0000 C CNN
+F 1 "LM358" H 7750 5300 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 7650 5450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=8608" H 7650 5450 50  0001 C CNN
+F 4 "hestore" H 7650 5450 50  0001 C CNN "Supplier"
+F 5 "1002.1875" H 7650 5450 50  0001 C CNN "PN"
+	2    7650 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U7
+U 3 1 5C286E15
+P 7700 5450
+F 0 "U7" H 7700 5300 50  0000 L CNN
+F 1 "LM358" H 7700 5200 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 7700 5450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=8608-n.pdf" H 7700 5450 50  0001 C CNN
+F 4 "hestore" H 7700 5450 50  0001 C CNN "Supplier"
+F 5 "1002.1875" H 7700 5450 50  0001 C CNN "PN"
+	3    7700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U7
+U 1 1 5C290792
+P 6750 4350
+F 0 "U7" H 6750 4600 50  0000 C CNN
+F 1 "LM358" H 6800 4500 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 6750 4350 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=8608" H 6750 4350 50  0001 C CNN
+F 4 "hestore" H 6750 4350 50  0001 C CNN "Supplier"
+F 5 "1002.1875" H 6750 4350 50  0001 C CNN "PN"
+	1    6750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R26
+U 1 1 5C29202E
+P 6850 4650
+F 0 "R26" V 6654 4650 50  0000 C CNN
+F 1 "18.2k" V 6745 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6850 4650 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=2670" H 6850 4650 50  0001 C CNN
+F 4 "hestore" H 6850 4650 50  0001 C CNN "Supplier"
+F 5 "1002.7326" H 6850 4650 50  0001 C CNN "PN"
+	1    6850 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R27
+U 1 1 5C2921B1
+P 6850 4750
+F 0 "R27" V 7050 4750 50  0000 C CNN
+F 1 "18.2k" V 6950 4750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6850 4750 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=2670" H 6850 4750 50  0001 C CNN
+F 4 "hestore" H 6850 4750 50  0001 C CNN "Supplier"
+F 5 "1002.7326" H 6850 4750 50  0001 C CNN "PN"
+	1    6850 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 4250 6450 4250
+Wire Wire Line
+	6450 4450 6450 4650
+Wire Wire Line
+	6450 4650 6750 4650
+Wire Wire Line
+	6750 4650 6750 4750
+Connection ~ 6750 4650
+Wire Wire Line
+	6950 4750 6950 4650
+$Comp
+L Device:R_Small R28
+U 1 1 5C2C0B49
+P 6250 4650
+F 0 "R28" V 6054 4650 50  0000 C CNN
+F 1 "1k" V 6145 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6250 4650 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=2670" H 6250 4650 50  0001 C CNN
+F 4 "hestore" H 6250 4650 50  0001 C CNN "Supplier"
+F 5 "1002.7205" H 6250 4650 50  0001 C CNN "PN"
+F 6 "51.30" H 6250 4650 50  0001 C CNN "Price"
+	1    6250 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C2CA477
+P 5550 3650
+F 0 "#PWR?" H 5550 3400 50  0001 C CNN
+F 1 "Earth" H 5550 3500 50  0001 C CNN
+F 2 "" H 5550 3650 50  0001 C CNN
+F 3 "~" H 5550 3650 50  0001 C CNN
+	1    5550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3650
+$Comp
+L lab_ps_with_atx_psu-rescue:+5V-power #PWR?
+U 1 1 5C2D33C3
+P 5150 4650
+F 0 "#PWR?" H 5150 4500 50  0001 C CNN
+F 1 "+5V" H 5165 4823 50  0000 C CNN
+F 2 "" H 5150 4650 50  0001 C CNN
+F 3 "" H 5150 4650 50  0001 C CNN
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C2D3450
+P 5400 4900
+F 0 "#PWR?" H 5400 4650 50  0001 C CNN
+F 1 "Earth" H 5400 4750 50  0001 C CNN
+F 2 "" H 5400 4900 50  0001 C CNN
+F 3 "~" H 5400 4900 50  0001 C CNN
+	1    5400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:C_Small-Device C13
+U 1 1 5C2D34DF
+P 5150 4800
+F 0 "C13" H 5242 4846 50  0000 L CNN
+F 1 "100n" H 5242 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 4800 50  0001 C CNN
+F 3 "~" H 5150 4800 50  0001 C CNN
+F 4 "hestore" H 5150 4800 50  0001 C CNN "Supplier"
+F 5 "1000.1122" H 5150 4800 50  0001 C CNN "PN"
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4700 5150 4700
+Wire Wire Line
+	5150 4650 5150 4700
+Connection ~ 5150 4700
+Wire Wire Line
+	5150 4900 5400 4900
+Wire Wire Line
+	6150 4650 5650 4650
+Wire Wire Line
+	5650 4650 5650 4900
+Wire Wire Line
+	5650 4900 5400 4900
+Connection ~ 5400 4900
+Wire Wire Line
+	6350 4650 6450 4650
+Connection ~ 6450 4650
+$Comp
+L lab_ps_with_atx_psu-rescue:+5V-power #PWR?
+U 1 1 5C30837D
+P 7600 5150
+F 0 "#PWR?" H 7600 5000 50  0001 C CNN
+F 1 "+5V" H 7615 5323 50  0000 C CNN
+F 2 "" H 7600 5150 50  0001 C CNN
+F 3 "" H 7600 5150 50  0001 C CNN
+	1    7600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C30840C
+P 7600 5750
+F 0 "#PWR?" H 7600 5500 50  0001 C CNN
+F 1 "Earth" H 7600 5600 50  0001 C CNN
+F 2 "" H 7600 5750 50  0001 C CNN
+F 3 "~" H 7600 5750 50  0001 C CNN
+	1    7600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C30849B
+P 8000 5200
+F 0 "#PWR?" H 8000 4950 50  0001 C CNN
+F 1 "Earth" H 8000 5050 50  0001 C CNN
+F 2 "" H 8000 5200 50  0001 C CNN
+F 3 "~" H 8000 5200 50  0001 C CNN
+	1    8000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:C_Small-Device C14
+U 1 1 5C31ACE7
+P 7850 5150
+F 0 "C14" H 7700 5100 50  0000 L CNN
+F 1 "100n" H 7650 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7850 5150 50  0001 C CNN
+F 3 "~" H 7850 5150 50  0001 C CNN
+F 4 "hestore" H 7850 5150 50  0001 C CNN "Supplier"
+F 5 "1000.1122" H 7850 5150 50  0001 C CNN "PN"
+	1    7850 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 5200 8000 5150
+Wire Wire Line
+	8000 5150 7950 5150
+Wire Wire Line
+	7750 5150 7600 5150
+Connection ~ 7600 5150
+$Comp
+L lab_ps_with_atx_psu-rescue:C_Small-Device C15
+U 1 1 5C35B0AD
+P 7200 5650
+F 0 "C15" H 7292 5696 50  0000 L CNN
+F 1 "100n" H 7292 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 5650 50  0001 C CNN
+F 3 "~" H 7200 5650 50  0001 C CNN
+F 4 "hestore" H 7200 5650 50  0001 C CNN "Supplier"
+F 5 "1000.1122" H 7200 5650 50  0001 C CNN "PN"
+	1    7200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R29
+U 1 1 5C35EAEF
+P 7200 5050
+F 0 "R29" H 7270 5096 50  0000 L CNN
+F 1 "1k" H 7270 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7130 5050 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 7200 5050 50  0001 C CNN
+F 4 "hestore" H 7200 5050 50  0001 C CNN "Supplier"
+F 5 "1000.1157" H 7200 5050 50  0001 C CNN "PN"
+	1    7200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5750 7600 5750
+Connection ~ 7600 5750
+Wire Wire Line
+	7350 5550 7200 5550
+Connection ~ 7750 2350
+$Comp
+L lab_ps_with_atx_psu-rescue:C_Small-Device C15
+U 1 1 5C3ACCD0
+P 6650 5450
+F 0 "C15" H 6742 5496 50  0000 L CNN
+F 1 "100n" H 6742 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6650 5450 50  0001 C CNN
+F 3 "~" H 6650 5450 50  0001 C CNN
+F 4 "hestore" H 6650 5450 50  0001 C CNN "Supplier"
+F 5 "1000.1122" H 6650 5450 50  0001 C CNN "PN"
+	1    6650 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5350 6650 5350
+Wire Wire Line
+	6650 5550 6650 5750
+Wire Wire Line
+	6650 5750 7200 5750
+Connection ~ 7200 5750
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R30
+U 1 1 5C3C0EA6
+P 6400 5350
+F 0 "R30" H 6470 5396 50  0000 L CNN
+F 1 "10k" H 6470 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 5350 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 6400 5350 50  0001 C CNN
+F 4 "hestore" H 6400 5350 50  0001 C CNN "Supplier"
+F 5 "1000.1145" H 6400 5350 50  0001 C CNN "PN"
+	1    6400 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:C_Small-Device C16
+U 1 1 5C3C20FD
+P 5600 5450
+F 0 "C16" H 5692 5496 50  0000 L CNN
+F 1 "100n" H 5692 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 5450 50  0001 C CNN
+F 3 "~" H 5600 5450 50  0001 C CNN
+F 4 "hestore" H 5600 5450 50  0001 C CNN "Supplier"
+F 5 "1000.1122" H 5600 5450 50  0001 C CNN "PN"
+	1    5600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R31
+U 1 1 5C3C21BB
+P 5300 5350
+F 0 "R31" H 5370 5396 50  0000 L CNN
+F 1 "10k" H 5370 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5230 5350 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 5300 5350 50  0001 C CNN
+F 4 "hestore" H 5300 5350 50  0001 C CNN "Supplier"
+F 5 "1000.1145" H 5300 5350 50  0001 C CNN "PN"
+	1    5300 5350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4900 5350 0    50   Input ~ 0
+ISET_PWM
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R32
+U 1 1 5C3C255F
+P 5950 5500
+F 0 "R32" H 6020 5546 50  0000 L CNN
+F 1 "4k7" H 6020 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 5500 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 5950 5500 50  0001 C CNN
+F 4 "hestore" H 5950 5500 50  0001 C CNN "Supplier"
+F 5 "1003.6380" H 5950 5500 50  0001 C CNN "PN"
+F 6 "0.8" H 5950 5500 50  0001 C CNN "Price"
+	1    5950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5350 6550 5350
+Connection ~ 6650 5350
+Wire Wire Line
+	6250 5350 5950 5350
+Wire Wire Line
+	5950 5350 5600 5350
+Connection ~ 5950 5350
+Wire Wire Line
+	5600 5350 5450 5350
+Connection ~ 5600 5350
+Wire Wire Line
+	5150 5350 4900 5350
+Wire Wire Line
+	6650 5750 5950 5750
+Wire Wire Line
+	5950 5750 5950 5650
+Connection ~ 6650 5750
+Wire Wire Line
+	5950 5750 5600 5750
+Wire Wire Line
+	5600 5750 5600 5550
+Connection ~ 5950 5750
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5C40E9A1
+P 8700 5450
+F 0 "Q1" H 8891 5496 50  0000 L CNN
+F 1 "2N3904" H 8891 5405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8900 5375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8700 5450 50  0001 L CNN
+F 4 "hestore" H 8700 5450 50  0001 C CNN "Supplier"
+F 5 "1002.8647" H 8700 5450 50  0001 C CNN "PN"
+F 6 "4.82" H 8700 5450 50  0001 C CNN "Price"
+	1    8700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R33
+U 1 1 5C40EA7B
+P 8300 5450
+F 0 "R33" H 8370 5496 50  0000 L CNN
+F 1 "10k" H 8370 5405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8230 5450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 8300 5450 50  0001 C CNN
+F 4 "hestore" H 8300 5450 50  0001 C CNN "Supplier"
+F 5 "1000.1145" H 8300 5450 50  0001 C CNN "PN"
+	1    8300 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 5450 8500 5450
+Wire Wire Line
+	8800 5650 8800 5750
+Wire Wire Line
+	8800 5750 7600 5750
+Text GLabel 9000 5150 2    50   Input ~ 0
+CLIM
+Wire Wire Line
+	9000 5150 8800 5150
+Wire Wire Line
+	8800 5150 8800 5250
+Text GLabel 3150 5000 2    50   Input ~ 0
+CLIM
+Wire Wire Line
+	3150 5000 3050 5000
+Wire Wire Line
+	7200 4900 7200 4850
+Wire Wire Line
+	7200 4850 7750 4850
+Wire Wire Line
+	7750 2350 7750 4850
+Wire Wire Line
+	7200 5200 7200 5550
+Connection ~ 7200 5550
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 5C47C38B
+P 8700 4650
+F 0 "Q2" H 8891 4696 50  0000 L CNN
+F 1 "2N3904" H 8891 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8900 4575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8700 4650 50  0001 L CNN
+F 4 "hestore" H 8700 4650 50  0001 C CNN "Supplier"
+F 5 "1002.8647" H 8700 4650 50  0001 C CNN "PN"
+F 6 "4.82" H 8700 4650 50  0001 C CNN "Price"
+	1    8700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C47C452
+P 8800 4850
+F 0 "#PWR?" H 8800 4600 50  0001 C CNN
+F 1 "Earth" H 8800 4700 50  0001 C CNN
+F 2 "" H 8800 4850 50  0001 C CNN
+F 3 "~" H 8800 4850 50  0001 C CNN
+	1    8800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R34
+U 1 1 5C47C6F9
+P 8350 4650
+F 0 "R34" H 8420 4696 50  0000 L CNN
+F 1 "10k" H 8420 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8280 4650 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 8350 4650 50  0001 C CNN
+F 4 "hestore" H 8350 4650 50  0001 C CNN "Supplier"
+F 5 "1000.1145" H 8350 4650 50  0001 C CNN "PN"
+	1    8350 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R35
+U 1 1 5C488564
+P 7200 4350
+F 0 "R35" H 7270 4396 50  0000 L CNN
+F 1 "1k" H 7270 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7130 4350 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 7200 4350 50  0001 C CNN
+F 4 "hestore" H 7200 4350 50  0001 C CNN "Supplier"
+F 5 "1000.1157" H 7200 4350 50  0001 C CNN "PN"
+	1    7200 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 5450 8100 5450
+Wire Wire Line
+	8800 4350 8800 4450
+Wire Wire Line
+	8200 4650 8100 4650
+Wire Wire Line
+	8100 4650 8100 5450
+Connection ~ 8100 5450
+Wire Wire Line
+	8100 5450 8150 5450
+$Comp
+L lab_ps_with_atx_psu-rescue:R-Device R36
+U 1 1 5C4C48F5
+P 7200 4650
+F 0 "R36" H 7270 4696 50  0000 L CNN
+F 1 "1k" H 7270 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7130 4650 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 7200 4650 50  0001 C CNN
+F 4 "hestore" H 7200 4650 50  0001 C CNN "Supplier"
+F 5 "1000.1142" H 7200 4650 50  0001 C CNN "PN"
+F 6 "2,2" H 7200 4650 50  0001 C CNN "Price"
+	1    7200 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 4650 6950 4650
+Connection ~ 6950 4650
+Wire Wire Line
+	7350 4350 7450 4350
+Wire Wire Line
+	7350 4650 7450 4650
+Wire Wire Line
+	7450 4650 7450 4350
+Connection ~ 7450 4350
+Wire Wire Line
+	7450 4350 8800 4350
+Wire Wire Line
+	8050 1150 8050 1850
+Wire Wire Line
+	8050 1850 8800 1850
+Wire Wire Line
+	8800 1850 8800 4350
+Connection ~ 8800 4350
+Wire Wire Line
+	8700 550  9150 550 
+Wire Wire Line
+	9150 550  9150 950 
+Wire Wire Line
+	9150 950  9050 950 
 $EndSCHEMATC

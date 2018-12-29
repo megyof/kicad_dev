@@ -1492,4 +1492,81 @@ Wire Wire Line
 	7750 1700 7750 2350
 Wire Wire Line
 	7750 2350 7700 2350
+$Comp
+L Regulator_Linear:LT3080xT U7
+U 1 1 5C3C5B49
+P 8550 1050
+F 0 "U7" H 8550 1417 50  0000 C CNN
+F 1 "LT3080xT" H 8550 1326 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 8550 750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1579629.pdf?_ga=2.208089362.1258535965.1546102551-1717950164.1545922555" H 6830 1820 50  0001 C CNN
+F 4 "ebay" H 8550 1050 50  0001 C CNN "Supplier"
+F 5 "https://www.aliexpress.com/item/in-stock-LT3080ET/2046091518.html?spm=2114.search0104.3.2.3dcd21f1sIdKd7&ws_ab_test=searchweb0_0,searchweb201602_2_10065_10068_319_317_10696_10084_453_454_10083_10618_10304_10307_10820_10821_538_537_10302_536_10059_10884_10887_100031_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=35121cde-f195-4494-ac62-ce6894054505-0&algo_pvid=35121cde-f195-4494-ac62-ce6894054505&transAbTest=ae803_3" H 8550 1050 50  0001 C CNN "PN"
+F 6 "900" H 8550 1050 50  0001 C CNN "Price[HUF]"
+	1    8550 1050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9050 1050
+Wire Wire Line
+	8050 950  7900 950 
+$Comp
+L lab_ps_with_atx_psu-rescue:CP_Small-Device C13
+U 1 1 5C3D589C
+P 7150 1050
+F 0 "C13" H 7238 1096 50  0000 L CNN
+F 1 "10u" H 7238 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 7150 1050 50  0001 C CNN
+F 3 "~" H 7150 1050 50  0001 C CNN
+F 4 "hestore" H 7150 1050 50  0001 C CNN "Supplier"
+F 5 "1002.9857" H 7150 1050 50  0001 C CNN "PN"
+	1    7150 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 950 
+Wire Wire Line
+	7150 950  6000 950 
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C3D59B6
+P 7150 1150
+F 0 "#PWR?" H 7150 900 50  0001 C CNN
+F 1 "Earth" H 7150 1000 50  0001 C CNN
+F 2 "" H 7150 1150 50  0001 C CNN
+F 3 "~" H 7150 1150 50  0001 C CNN
+	1    7150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:+5V-power #PWR?
+U 1 1 5C3D63C0
+P 7650 800
+F 0 "#PWR?" H 7650 650 50  0001 C CNN
+F 1 "+5V" H 7665 973 50  0000 C CNN
+F 2 "" H 7650 800 50  0001 C CNN
+F 3 "" H 7650 800 50  0001 C CNN
+	1    7650 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1050 7650 1050
+Wire Wire Line
+	7650 1050 7650 800 
+$Comp
+L Device:D_Schottky D5
+U 1 1 5C3DD916
+P 8550 550
+F 0 "D5" H 8400 500 50  0000 C CNN
+F 1 "SK33A" H 8850 500 50  0000 C CNN
+F 2 "" H 8550 550 50  0001 C CNN
+F 3 "~" H 8550 550 50  0001 C CNN
+	1    8550 550 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 550  7900 550 
+Wire Wire Line
+	7900 550  7900 950 
+Connection ~ 7900 950 
+Wire Wire Line
+	7900 950  7150 950 
 $EndSCHEMATC
