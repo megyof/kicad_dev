@@ -821,10 +821,64 @@ Wire Wire Line
 	2450 2050 2550 2050
 Wire Wire Line
 	1750 3550 1750 3700
-$Sheet
-S 4650 2450 3300 2750
-U 5C2ACC09
-F0 "PSU" 50
-F1 "PSU.sch" 50
-$EndSheet
+$Comp
+L lab_ps_with_atx_psu-rescue:Screw_Terminal_01x02-Connector CON2
+U 1 1 5C2ACF23
+P 4700 1100
+F 0 "CON2" V 4900 1050 50  0000 C CNN
+F 1 "+5V DC PSU IN" V 4800 1050 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 4700 1100 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=1614" H 4700 1100 50  0001 C CNN
+F 4 "hestore" V 4700 1100 50  0001 C CNN "Supplier"
+F 5 "1002.6644" V 4700 1100 50  0001 C CNN "PN"
+	1    4700 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L lab_ps_with_atx_psu-rescue:Earth-power #PWR?
+U 1 1 5C2B170C
+P 4900 1550
+F 0 "#PWR?" H 4900 1300 50  0001 C CNN
+F 1 "Earth" H 4900 1400 50  0001 C CNN
+F 2 "" H 4900 1550 50  0001 C CNN
+F 3 "~" H 4900 1550 50  0001 C CNN
+	1    4900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C2B17A4
+P 4900 850
+F 0 "#PWR?" H 4900 700 50  0001 C CNN
+F 1 "+12V" H 4915 1023 50  0000 C CNN
+F 2 "" H 4900 850 50  0001 C CNN
+F 3 "" H 4900 850 50  0001 C CNN
+	1    4900 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1000 4900 850 
+Wire Wire Line
+	4900 1100 4900 1550
+$Comp
+L Device:CP C8
+U 1 1 5C2B62B0
+P 5100 1150
+F 0 "C8" H 5218 1196 50  0000 L CNN
+F 1 "220u/35V" H 5218 1105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5138 1000 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3451" H 5100 1150 50  0001 C CNN
+F 4 "hestore" H 5100 1150 50  0001 C CNN "Supplier"
+F 5 "1002.8497" H 5100 1150 50  0001 C CNN "PN"
+	1    5100 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1300 5100 1550
+Wire Wire Line
+	5100 1550 4900 1550
+Connection ~ 4900 1550
+Wire Wire Line
+	5100 1000 4900 1000
+Connection ~ 4900 1000
 $EndSCHEMATC
