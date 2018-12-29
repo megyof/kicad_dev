@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name lab_ps_with_atx_psu-rescue)(type Legacy)(uri ${KIPRJMOD}/lab_ps_with_atx_psu-rescue.lib)(options "")(descr ""))
+  (lib (name INA219)(type Legacy)(uri ${KIPRJMOD}/INA219.lib)(options "")(descr ""))
+  (lib (name MCP4726)(type Legacy)(uri ${KIPRJMOD}/MCP4726.lib)(options "")(descr ""))
 )
