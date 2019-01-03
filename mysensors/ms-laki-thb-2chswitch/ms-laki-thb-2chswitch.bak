@@ -124,11 +124,11 @@ U 1 1 5C2B2626
 P 3750 1000
 F 0 "C2" H 3842 1046 50  0000 L CNN
 F 1 "100n" H 3842 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 1000 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 3750 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3750 1000 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 3750 1000 50  0001 C CNN
 F 4 "hestore" H 3750 1000 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 3750 1000 50  0001 C CNN "PN"
-F 6 "4.72" H 3750 1000 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 3750 1000 50  0001 C CNN "PN"
+F 6 "11" H 3750 1000 50  0001 C CNN "Price[HUF]"
 	1    3750 1000
 	1    0    0    -1  
 $EndComp
@@ -184,11 +184,11 @@ U 1 1 5C2B2CAA
 P 5000 1000
 F 0 "C3" H 5092 1046 50  0000 L CNN
 F 1 "100n" H 5092 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 1000 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 5000 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 1000 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 5000 1000 50  0001 C CNN
 F 4 "hestore" H 5000 1000 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 5000 1000 50  0001 C CNN "PN"
-F 6 "4.72" H 5000 1000 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 5000 1000 50  0001 C CNN "PN"
+F 6 "11" H 5000 1000 50  0001 C CNN "Price[HUF]"
 	1    5000 1000
 	1    0    0    -1  
 $EndComp
@@ -198,11 +198,11 @@ U 1 1 5C2C091B
 P 4100 1000
 F 0 "D1" V 4146 932 50  0000 R CNN
 F 1 "5VPWR" V 4055 932 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4100 1000 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=6880" V 4100 1000 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4100 1000 50  0001 C CNN
+F 3 "~" V 4100 1000 50  0001 C CNN
 F 4 "hestore" H 4100 1000 50  0001 C CNN "Supplier"
-F 5 "1003.4529" H 4100 1000 50  0001 C CNN "PN"
-F 6 "12" H 4100 1000 50  0001 C CNN "Price[HUF]"
+F 5 "1003.6588" H 4100 1000 50  0001 C CNN "PN"
+F 6 "14.3" H 4100 1000 50  0001 C CNN "Price[HUF]"
 	1    4100 1000
 	0    -1   -1   0   
 $EndComp
@@ -212,11 +212,11 @@ U 1 1 5C2C0A25
 P 4100 1200
 F 0 "R1" H 4159 1246 50  0000 L CNN
 F 1 "1k" H 4159 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 1200 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 4100 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4100 1200 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3595" H 4100 1200 50  0001 C CNN
 F 4 "hestore" H 4100 1200 50  0001 C CNN "Supplier"
-F 5 "1000.1157" H 4100 1200 50  0001 C CNN "PN"
-F 6 "2.2" H 4100 1200 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0256" H 4100 1200 50  0001 C CNN "PN"
+F 6 "2.3" H 4100 1200 50  0001 C CNN "Price[HUF]"
 	1    4100 1200
 	1    0    0    -1  
 $EndComp
@@ -226,11 +226,11 @@ U 1 1 5C2C0B96
 P 5650 1000
 F 0 "D2" V 5696 932 50  0000 R CNN
 F 1 "3_3VPWR" V 5605 932 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5650 1000 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=6880" V 5650 1000 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5650 1000 50  0001 C CNN
+F 3 "~" V 5650 1000 50  0001 C CNN
 F 4 "hestore" H 5650 1000 50  0001 C CNN "Supplier"
-F 5 "1003.4529" H 5650 1000 50  0001 C CNN "PN"
-F 6 "12" H 5650 1000 50  0001 C CNN "Price[HUF]"
+F 5 "1003.6591" H 5650 1000 50  0001 C CNN "PN"
+F 6 "14.3" H 5650 1000 50  0001 C CNN "Price[HUF]"
 	1    5650 1000
 	0    -1   -1   0   
 $EndComp
@@ -240,10 +240,10 @@ U 1 1 5C2C0C25
 P 5650 1200
 F 0 "R2" H 5709 1246 50  0000 L CNN
 F 1 "330" H 5709 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 1200 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 5650 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5650 1200 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3612" H 5650 1200 50  0001 C CNN
 F 4 "hestore" H 5650 1200 50  0001 C CNN "Supplier"
-F 5 "1000.1170" H 5650 1200 50  0001 C CNN "PN"
+F 5 "1000.0487" H 5650 1200 50  0001 C CNN "PN"
 F 6 "2.2" H 5650 1200 50  0001 C CNN "Price[HUF]"
 	1    5650 1200
 	1    0    0    -1  
@@ -277,11 +277,11 @@ U 1 1 5C2C1466
 P 5350 1000
 F 0 "C4" H 5438 1046 50  0000 L CNN
 F 1 "10u" H 5438 955 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5350 1000 50  0001 C CNN
-F 3 "~" H 5350 1000 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 5350 1000 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3403" H 5350 1000 50  0001 C CNN
 F 4 "hestore" H 5350 1000 50  0001 C CNN "Supplier"
-F 5 "1000.0404" H 5350 1000 50  0001 C CNN "PN"
-F 6 "6.5" H 5350 1000 50  0001 C CNN "Price[HUF]"
+F 5 "1002.3050" H 5350 1000 50  0001 C CNN "PN"
+F 6 "45.55" H 5350 1000 50  0001 C CNN "Price[HUF]"
 	1    5350 1000
 	1    0    0    -1  
 $EndComp
@@ -362,11 +362,11 @@ U 1 1 5C2C5A55
 P 1300 2150
 F 0 "C5" H 1392 2196 50  0000 L CNN
 F 1 "100n" H 1392 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1300 2150 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 1300 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1300 2150 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 1300 2150 50  0001 C CNN
 F 4 "hestore" H 1300 2150 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 1300 2150 50  0001 C CNN "PN"
-F 6 "4.72" H 1300 2150 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 1300 2150 50  0001 C CNN "PN"
+F 6 "11" H 1300 2150 50  0001 C CNN "Price[HUF]"
 	1    1300 2150
 	1    0    0    -1  
 $EndComp
@@ -400,11 +400,11 @@ U 1 1 5C2C5F1F
 P 3900 2850
 F 0 "C6" H 3992 2896 50  0000 L CNN
 F 1 "22p" H 3992 2805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3900 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3900 2850 50  0001 C CNN
 F 3 "~" H 3900 2850 50  0001 C CNN
 F 4 "hestore" H 3900 2850 50  0001 C CNN "Supplier"
-F 5 "1002.5995" H 3900 2850 50  0001 C CNN "PN"
-F 6 "4" H 3900 2850 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0587" H 3900 2850 50  0001 C CNN "PN"
+F 6 "6.3" H 3900 2850 50  0001 C CNN "Price[HUF]"
 	1    3900 2850
 	1    0    0    -1  
 $EndComp
@@ -414,11 +414,11 @@ U 1 1 5C2C6049
 P 3500 2850
 F 0 "C7" H 3592 2896 50  0000 L CNN
 F 1 "22p" H 3592 2805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3500 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3500 2850 50  0001 C CNN
 F 3 "~" H 3500 2850 50  0001 C CNN
 F 4 "hestore" H 3500 2850 50  0001 C CNN "Supplier"
-F 5 "1002.5995" H 3500 2850 50  0001 C CNN "PN"
-F 6 "4" H 3500 2850 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0587" H 3500 2850 50  0001 C CNN "PN"
+F 6 "6.3" H 3500 2850 50  0001 C CNN "Price[HUF]"
 	1    3500 2850
 	1    0    0    -1  
 $EndComp
@@ -483,10 +483,10 @@ U 1 1 5C2CB3A5
 P 4250 3450
 F 0 "R3" H 4309 3496 50  0000 L CNN
 F 1 "10k" H 4309 3405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 3450 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 4250 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4250 3450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3602" H 4250 3450 50  0001 C CNN
 F 4 "hestore" H 4250 3450 50  0001 C CNN "Supplier"
-F 5 "1000.1145" H 4250 3450 50  0001 C CNN "PN"
+F 5 "1000.0297" H 4250 3450 50  0001 C CNN "PN"
 F 6 "3.15" H 4250 3450 50  0001 C CNN "Price[HUF]"
 	1    4250 3450
 	1    0    0    -1  
@@ -525,11 +525,11 @@ U 1 1 5C2CC867
 P 3950 3650
 F 0 "C8" H 4042 3696 50  0000 L CNN
 F 1 "100n" H 4042 3605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 3650 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 3950 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3950 3650 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 3950 3650 50  0001 C CNN
 F 4 "hestore" H 3950 3650 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 3950 3650 50  0001 C CNN "PN"
-F 6 "4.72" H 3950 3650 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 3950 3650 50  0001 C CNN "PN"
+F 6 "11" H 3950 3650 50  0001 C CNN "Price[HUF]"
 	1    3950 3650
 	1    0    0    -1  
 $EndComp
@@ -584,11 +584,11 @@ U 1 1 5C2D5C75
 P 1050 2150
 F 0 "C9" H 1142 2196 50  0000 L CNN
 F 1 "100n" H 1142 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1050 2150 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 1050 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1050 2150 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 1050 2150 50  0001 C CNN
 F 4 "hestore" H 1050 2150 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 1050 2150 50  0001 C CNN "PN"
-F 6 "4.72" H 1050 2150 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 1050 2150 50  0001 C CNN "PN"
+F 6 "11" H 1050 2150 50  0001 C CNN "Price[HUF]"
 	1    1050 2150
 	-1   0    0    1   
 $EndComp
@@ -605,11 +605,11 @@ U 1 1 5C2D8822
 P 2850 6150
 F 0 "C10" H 2938 6196 50  0000 L CNN
 F 1 "10u" H 2938 6105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 2850 6150 50  0001 C CNN
-F 3 "~" H 2850 6150 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 2850 6150 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3403" H 2850 6150 50  0001 C CNN
 F 4 "hestore" H 2850 6150 50  0001 C CNN "Supplier"
-F 5 "1000.0404" H 2850 6150 50  0001 C CNN "PN"
-F 6 "6.5" H 2850 6150 50  0001 C CNN "Price[HUF]"
+F 5 "1002.3050" H 2850 6150 50  0001 C CNN "PN"
+F 6 "45.55" H 2850 6150 50  0001 C CNN "Price[HUF]"
 	1    2850 6150
 	1    0    0    -1  
 $EndComp
@@ -709,11 +709,11 @@ U 1 1 5C2F00B9
 P 4300 6350
 F 0 "D3" V 4346 6282 50  0000 R CNN
 F 1 "SCK" V 4255 6282 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4300 6350 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4300 6350 50  0001 C CNN
 F 3 "https://www.hestore.hu/prod_getfile.php?id=6880" V 4300 6350 50  0001 C CNN
 F 4 "hestore" H 4300 6350 50  0001 C CNN "Supplier"
-F 5 "1003.2677" H 4300 6350 50  0001 C CNN "PN"
-F 6 "11" H 4300 6350 50  0001 C CNN "Price[HUF]"
+F 5 "1003.6591" H 4300 6350 50  0001 C CNN "PN"
+F 6 "9.3" H 4300 6350 50  0001 C CNN "Price[HUF]"
 	1    4300 6350
 	0    -1   -1   0   
 $EndComp
@@ -747,11 +747,11 @@ U 1 1 5C30610D
 P 4300 6550
 F 0 "R4" H 4359 6596 50  0000 L CNN
 F 1 "1k" H 4359 6505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 6550 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 4300 6550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4300 6550 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3595" H 4300 6550 50  0001 C CNN
 F 4 "hestore" H 4300 6550 50  0001 C CNN "Supplier"
-F 5 "1000.1157" H 4300 6550 50  0001 C CNN "PN"
-F 6 "2.2" H 4300 6550 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0256" H 4300 6550 50  0001 C CNN "PN"
+F 6 "2.3" H 4300 6550 50  0001 C CNN "Price[HUF]"
 	1    4300 6550
 	1    0    0    -1  
 $EndComp
@@ -828,11 +828,11 @@ U 1 1 5C3190E3
 P 6600 6500
 F 0 "C11" H 6692 6546 50  0000 L CNN
 F 1 "100n" H 6692 6455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 6500 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 6600 6500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6600 6500 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 6600 6500 50  0001 C CNN
 F 4 "hestore" H 6600 6500 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 6600 6500 50  0001 C CNN "PN"
-F 6 "4.72" H 6600 6500 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 6600 6500 50  0001 C CNN "PN"
+F 6 "11" H 6600 6500 50  0001 C CNN "Price[HUF]"
 	1    6600 6500
 	0    1    1    0   
 $EndComp
@@ -852,11 +852,11 @@ U 1 1 5C326024
 P 6550 5700
 F 0 "C12" H 6642 5746 50  0000 L CNN
 F 1 "100n" H 6642 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 5700 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 6550 5700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6550 5700 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 6550 5700 50  0001 C CNN
 F 4 "hestore" H 6550 5700 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 6550 5700 50  0001 C CNN "PN"
-F 6 "4.72" H 6550 5700 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 6550 5700 50  0001 C CNN "PN"
+F 6 "11" H 6550 5700 50  0001 C CNN "Price[HUF]"
 	1    6550 5700
 	-1   0    0    1   
 $EndComp
@@ -887,10 +887,10 @@ U 1 1 5C330C00
 P 8300 5450
 F 0 "R6" H 8359 5496 50  0000 L CNN
 F 1 "10k" H 8359 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8300 5450 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 8300 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8300 5450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3602" H 8300 5450 50  0001 C CNN
 F 4 "hestore" H 8300 5450 50  0001 C CNN "Supplier"
-F 5 "1000.1145" H 8300 5450 50  0001 C CNN "PN"
+F 5 "1000.0297" H 8300 5450 50  0001 C CNN "PN"
 F 6 "3.15" H 8300 5450 50  0001 C CNN "Price[HUF]"
 	1    8300 5450
 	1    0    0    -1  
@@ -901,10 +901,10 @@ U 1 1 5C330CAC
 P 8100 5450
 F 0 "R5" H 8159 5496 50  0000 L CNN
 F 1 "10k" H 8159 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 5450 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 8100 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8100 5450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3602" H 8100 5450 50  0001 C CNN
 F 4 "hestore" H 8100 5450 50  0001 C CNN "Supplier"
-F 5 "1000.1145" H 8100 5450 50  0001 C CNN "PN"
+F 5 "1000.0297" H 8100 5450 50  0001 C CNN "PN"
 F 6 "3.15" H 8100 5450 50  0001 C CNN "Price[HUF]"
 	1    8100 5450
 	1    0    0    -1  
@@ -932,11 +932,11 @@ U 1 1 5C33B290
 P 8600 5450
 F 0 "C13" H 8692 5496 50  0000 L CNN
 F 1 "100n" H 8692 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 5450 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=7854" H 8600 5450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8600 5450 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3599" H 8600 5450 50  0001 C CNN
 F 4 "hestore" H 8600 5450 50  0001 C CNN "Supplier"
-F 5 "1000.1122" H 8600 5450 50  0001 C CNN "PN"
-F 6 "4.72" H 8600 5450 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0289" H 8600 5450 50  0001 C CNN "PN"
+F 6 "11" H 8600 5450 50  0001 C CNN "Price[HUF]"
 	1    8600 5450
 	1    0    0    -1  
 $EndComp
@@ -992,11 +992,11 @@ U 1 1 5C35B34B
 P 5250 1900
 F 0 "D4" V 5296 1832 50  0000 R CNN
 F 1 "RELAY1" V 5205 1832 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5250 1900 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5250 1900 50  0001 C CNN
 F 3 "https://www.hestore.hu/prod_getfile.php?id=7812" V 5250 1900 50  0001 C CNN
 F 4 "hestore" H 5250 1900 50  0001 C CNN "Supplier"
-F 5 "1002.5834" H 5250 1900 50  0001 C CNN "PN"
-F 6 "13.18" H 5250 1900 50  0001 C CNN "Price[HUF]"
+F 5 "1003.6590" H 5250 1900 50  0001 C CNN "PN"
+F 6 "7.1" H 5250 1900 50  0001 C CNN "Price[HUF]"
 	1    5250 1900
 	-1   0    0    1   
 $EndComp
@@ -1006,11 +1006,11 @@ U 1 1 5C35EE96
 P 5350 2300
 F 0 "R7" H 5409 2346 50  0000 L CNN
 F 1 "1k" H 5409 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 2300 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 5350 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5350 2300 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3595" H 5350 2300 50  0001 C CNN
 F 4 "hestore" H 5350 2300 50  0001 C CNN "Supplier"
-F 5 "1000.1157" H 5350 2300 50  0001 C CNN "PN"
-F 6 "2.2" H 5350 2300 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0256" H 5350 2300 50  0001 C CNN "PN"
+F 6 "2.3" H 5350 2300 50  0001 C CNN "Price[HUF]"
 	1    5350 2300
 	1    0    0    -1  
 $EndComp
@@ -1057,11 +1057,11 @@ U 1 1 5C37D1E2
 P 6050 2100
 F 0 "R8" H 6109 2146 50  0000 L CNN
 F 1 "510" H 6109 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 2100 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 6050 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6050 2100 50  0001 C CNN
+F 3 "~" H 6050 2100 50  0001 C CNN
 F 4 "hestore" H 6050 2100 50  0001 C CNN "Supplier"
-F 5 "1002.0174" H 6050 2100 50  0001 C CNN "PN"
-F 6 "2.76" H 6050 2100 50  0001 C CNN "Price[HUF]"
+F 5 "1003.5946" H 6050 2100 50  0001 C CNN "PN"
+F 6 "3.52" H 6050 2100 50  0001 C CNN "Price[HUF]"
 	1    6050 2100
 	0    1    1    0   
 $EndComp
@@ -1090,11 +1090,11 @@ U 1 1 5C380B48
 P 6450 1800
 F 0 "D5" V 6404 1868 50  0000 L CNN
 F 1 "1N4148WS" V 6495 1868 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6450 1800 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=10290" V 6450 1800 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6450 1800 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=4976" V 6450 1800 50  0001 C CNN
 F 4 "hestore" H 6450 1800 50  0001 C CNN "Supplier"
-F 5 "1003.8803" H 6450 1800 50  0001 C CNN "PN"
-F 6 "4.9" H 6450 1800 50  0001 C CNN "Price[HUF]"
+F 5 "1002.9300" H 6450 1800 50  0001 C CNN "PN"
+F 6 "11" H 6450 1800 50  0001 C CNN "Price[HUF]"
 	1    6450 1800
 	0    1    1    0   
 $EndComp
@@ -1177,11 +1177,11 @@ U 1 1 5C2E9777
 P 5250 3000
 F 0 "D6" V 5296 2932 50  0000 R CNN
 F 1 "RELAY1" V 5205 2932 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5250 3000 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5250 3000 50  0001 C CNN
 F 3 "https://www.hestore.hu/prod_getfile.php?id=7812" V 5250 3000 50  0001 C CNN
 F 4 "hestore" H 5250 3000 50  0001 C CNN "Supplier"
-F 5 "1002.5834" H 5250 3000 50  0001 C CNN "PN"
-F 6 "13.18" H 5250 3000 50  0001 C CNN "Price[HUF]"
+F 5 "1003.6590" H 5250 3000 50  0001 C CNN "PN"
+F 6 "7.1" H 5250 3000 50  0001 C CNN "Price[HUF]"
 	1    5250 3000
 	-1   0    0    1   
 $EndComp
@@ -1191,11 +1191,11 @@ U 1 1 5C2E9781
 P 5350 3400
 F 0 "R9" H 5409 3446 50  0000 L CNN
 F 1 "1k" H 5409 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 3400 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 5350 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5350 3400 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=3595" H 5350 3400 50  0001 C CNN
 F 4 "hestore" H 5350 3400 50  0001 C CNN "Supplier"
-F 5 "1000.1157" H 5350 3400 50  0001 C CNN "PN"
-F 6 "2.2" H 5350 3400 50  0001 C CNN "Price[HUF]"
+F 5 "1000.0256" H 5350 3400 50  0001 C CNN "PN"
+F 6 "2.3" H 5350 3400 50  0001 C CNN "Price[HUF]"
 	1    5350 3400
 	1    0    0    -1  
 $EndComp
@@ -1234,11 +1234,11 @@ U 1 1 5C2E979D
 P 6050 3200
 F 0 "R10" H 6109 3246 50  0000 L CNN
 F 1 "510" H 6109 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 3200 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=3656" H 6050 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6050 3200 50  0001 C CNN
+F 3 "~" H 6050 3200 50  0001 C CNN
 F 4 "hestore" H 6050 3200 50  0001 C CNN "Supplier"
-F 5 "1002.0174" H 6050 3200 50  0001 C CNN "PN"
-F 6 "2.76" H 6050 3200 50  0001 C CNN "Price[HUF]"
+F 5 "1003.5946" H 6050 3200 50  0001 C CNN "PN"
+F 6 "3.52" H 6050 3200 50  0001 C CNN "Price[HUF]"
 	1    6050 3200
 	0    1    1    0   
 $EndComp
@@ -1267,11 +1267,11 @@ U 1 1 5C2E97B4
 P 6450 2900
 F 0 "D7" V 6404 2968 50  0000 L CNN
 F 1 "1N4148WS" V 6495 2968 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6450 2900 50  0001 C CNN
-F 3 "https://www.hestore.hu/prod_getfile.php?id=10290" V 6450 2900 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6450 2900 50  0001 C CNN
+F 3 "https://www.hestore.hu/prod_getfile.php?id=4976" V 6450 2900 50  0001 C CNN
 F 4 "hestore" H 6450 2900 50  0001 C CNN "Supplier"
-F 5 "1003.8803" H 6450 2900 50  0001 C CNN "PN"
-F 6 "4.9" H 6450 2900 50  0001 C CNN "Price[HUF]"
+F 5 "1002.9300" H 6450 2900 50  0001 C CNN "PN"
+F 6 "11" H 6450 2900 50  0001 C CNN "Price[HUF]"
 	1    6450 2900
 	0    1    1    0   
 $EndComp
@@ -1351,4 +1351,12 @@ Wire Wire Line
 Connection ~ 3450 3550
 Wire Wire Line
 	3450 3550 2800 3550
+NoConn ~ 2800 2050
+NoConn ~ 2800 2950
+NoConn ~ 2800 3050
+NoConn ~ 2800 3150
+NoConn ~ 2800 3250
+NoConn ~ 2800 4050
+NoConn ~ 2800 4350
+NoConn ~ 2800 4450
 $EndSCHEMATC
